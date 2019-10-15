@@ -5,14 +5,14 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'rubycritic/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'rubycritic'
+  spec.name          = 'rubycritic-simplecov'
   spec.version       = RubyCritic::VERSION
-  spec.authors       = ['Guilherme Simoes']
-  spec.email         = ['guilherme.rdems@gmail.com']
+  spec.authors       = ['Guilherme Simoes', 'Ernesto Tagwerker']
+  spec.email         = ['guilherme.rdems@gmail.com', 'ernesto@ombulabs.com']
   spec.description   = 'RubyCritic is a tool that wraps around various static analysis gems '\
     'to provide a quality report of your Ruby code.'
-  spec.summary       = 'RubyCritic is a Ruby code quality reporter'
-  spec.homepage      = 'https://github.com/whitesmith/rubycritic'
+  spec.summary       = 'RubyCritic-SimpleCov is a Ruby code quality reporter with SimpleCov support'
+  spec.homepage      = 'https://github.com/fastruby/rubycritic'
   spec.license       = 'MIT'
   spec.required_ruby_version = '>= 2.3.0'
 
